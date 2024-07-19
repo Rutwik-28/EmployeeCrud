@@ -9,7 +9,7 @@ namespace EmployeeCrud.Controllers
     {
         private readonly EmployeeContext _context;
 
-
+        // context of database
         public SearchController(EmployeeContext context)
         {
             _context = context;
