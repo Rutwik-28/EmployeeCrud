@@ -15,7 +15,7 @@ namespace EmployeeCrud.Controllers
             _context = context;
         }
 
-        // GET: Search
+        // GET: Search Using Searchtring
         public async Task<IActionResult> Index(string searchString)
         {
             // Store the current search string in ViewData to use it in the view
