@@ -660,7 +660,7 @@ $.extend( $.validator, {
 		},
 
 		clean: function( selector ) {
-			return $( selector )[ 0 ];
+			return $( document ).find( selector )[ 0 ];
 		},
 
 		errors: function() {
